@@ -1,6 +1,6 @@
- # Projeto de ela lcd com sensor de distância 
+ # Projeto de tela lcd com sensor de distância 
 
- este projeto foi desenvolvido dentro do tinkercad, na diciplina de internet das coisas (iot), para a criação de um prototipo com arduino que simule uma mensagem que matenha
+ Este projeto foi desenvolvido dentro do tinkercad, na diciplina de internet das coisas (iot), para a criação de um prototipo com arduino que simule uma mensagem que matenha
  distância toda vez que alguém se aproximar a menos de 1 metro de sensor.
 
  ##Componentes Usados
