@@ -22,26 +22,108 @@ Fios de Conexão: Fios jumpers para fazer as ligações entre os componentes e a
 
 # Explicação do Código
 
-variáveis ​​int led =3; int sensorluminosidade= A0; variável para capturar a luminosidade int luz =0;
+int led =4;
+int led =3;
+int sensorluminosidade= A0;
 
-void setup() { led é dito pinMode(led,OUTPUT); sensor é de entrada pinMode(sensorluminosidade,INPUT); }
+int luz =0;
 
-void loop() { capturar o que o sensor leu no ambiente analogRead é usado para leitura analógica
-
-luz = analogRead(sensorluminosidade);
-
-SE ESTIVER COM POUCA LUZ NO AMBIENTE if(luz<500){ digitalWrite(led,HIGH); LIGAR LED
-
-passar ao led intensidade máxima analogWrite(led,1023);
-
-} else if (luz >= 500 && luz < 900) {
-
-passar ao led intensidade média analogWrite(led,500);
-
-}else{ SE TIVER LUZ digitalWrite(led,LOW); DESLIGAR LED
-
-passar ao led intensidade mínima analogWrite(led,0);
-
+void setup()
+{
+  
+  pinMode(led,OUTPUT);
+  
+  pinMode(sensorluminosidade,INPUT);
 }
 
+void loop()
+{
+ 
+ 
+  luz = analogRead(sensorluminosidade);
+  
+ 
+  
+  if(luz<500){
+   digitalWrite(led,HIGH); 
+   
+   
+  analogWrite(led,1023);
+   
+  } else if (luz >= 500 && luz < 900) {
+ 
+ 
+   
+  analogWrite(led,500);
+   
+  }else{ 
+   digitalWrite(led,LOW); 
+    
+    analogWrite(led,0);
+ 
+  }
+ 
+}
+
+int sensorluminosidade =A0;
+
+void setup()
+{
+
+  pinMode(led,OUTPUT);
+ 
+  pinMode(sensorluminosidade, INPUT);
+}
+
+void loop()//variaveis
+int led =3;
+int sensorluminosidade= A0;
+
+int luz =0; 
+
+void setup()
+{
+ 
+  pinMode(led,OUTPUT);
+  
+  pinMode(sensorluminosidade,INPUT);
+}
+
+void loop()
+{
+  
+  
+  luz = analogRead(sensorluminosidade);
+  
+ 
+  if(luz<500){
+   digitalWrite(led,HIGH);
+    
+  
+  analogWrite(led,1023); 
+    
+  }if(luz>500 & luz<900){
+  
+   
+    analogWrite(led,500); 
+    
+  }else{ 
+    digitalWrite(led,LOW); 
+  
+    
+  analogWrite(led,0);
+  
+  }
+  
+}
+{
+  
+  luz = analogRead(sensorluminosidade);
+  
+  
+  if(luz<500){
+    digitalWrite(led,HIGH);
+  }else{//se tiver luz
+    digitalWrite(led,LOW); 
+  }
 }
