@@ -1,9 +1,9 @@
-ControleServoMotor
+#ControleServoMotor
 
 # Introdução
 Este projeto utiliza um servo motor conectado ao Arduino e um botão para controlar sua posição. Cada vez que o botão é pressionado, o servo motor aumenta sua posição em 1 grau, até um máximo de 180 graus. Esse sistema é útil para aplicações que requerem controle de ângulo preciso.
 
-Componentes Usados
+#Componentes Usados
 1 Arduino Uno
 
 1 Servo Motor
