@@ -1,6 +1,7 @@
-Projeto de Sinalização com LEDs
+#Projeto de Sinalização com LEDs
 Introdução
 Este projeto foi desenvolvido no Tinkercad, com o objetivo de criar um sistema de sinalização utilizando LEDs. O sistema apresenta diferentes combinações de LEDs em momentos distintos, permitindo a visualização de padrões de iluminação. Os LEDs utilizados são nas cores verde, vermelho e azul, proporcionando um efeito visual interessante. O circuito é projetado para alternar entre três momentos diferentes, cada um com uma configuração específica de LEDs acesos.
+
 
 #Componentes Usados ​​1 Arduino Uno 6 LEDs (2 Verdes, 2 Vermelhos, 2 Azuis) 6 Jumpers Macho-Macho
 
