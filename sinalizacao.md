@@ -6,7 +6,7 @@ Este projeto foi desenvolvido no Tinkercad, com o objetivo de criar um sistema d
 #Componentes Usados ​​1 Arduino Uno 6 LEDs (2 Verdes, 2 Vermelhos, 2 Azuis) 6 Jumpers Macho-Macho
 
 Montagem do Circuito
-![Imagem do Circuito](sinalizacaoled.png)
+![Imagem do Circuito]()
 
 Explicação do Código
 Definindo os pinos dos LEDs
