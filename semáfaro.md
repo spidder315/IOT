@@ -20,7 +20,7 @@ a presença de pedestres.
 
 # Montagem do Circuito
 
-![Imagem do Circuito](semafaro.png)
+![Imagem do Circuito](02semáfaro.png)
 
 # Explicação do Código
 
